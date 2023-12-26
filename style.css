@@ -1,0 +1,141 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, Arial; 
+}
+
+header {
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
+}
+
+header h2 {
+    margin-left: 5%;
+    border: 5px solid black;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.banner img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.banner .galeri {
+    background: #2c394b90;
+    color: white;
+    padding: 2%;
+    position: absolute;
+    top: 20vh;
+    left: 0;
+}
+
+.banner .galeri h2{
+    font-size: 3vw;
+}
+
+/* .banner .source1 {
+    position: absolute;
+    bottom: -52vh;
+    right: 1vw;
+    color: white;
+} */
+
+.text-ind p{
+    margin: 2vw 7vw 5vw 7vw;
+    line-height: 4vh;
+    text-align: justify;
+}
+
+.text-ind h1{
+    margin: 4vw 7vw 5vw 7vw;
+    margin-bottom: 0px;
+
+}
+
+.food h1{
+    margin: 6vw 7vw 3vw 7vw;
+    text-align: center;
+}
+
+.img-food{
+    margin: 4vw 7vw 3vw 7vw;
+}
+
+.food img{
+    width: 30%;
+    height: 30%;
+}
+
+.culture h1{
+    margin: 7vw 7vw 3vw 7vw;
+    text-align: center;
+}
+
+.img-culture{
+    margin: 4vw 7vw 3vw 7vw;
+}
+
+.culture img{
+    width: 30%;
+    height: 30%;
+}
+
+.travel h1{
+    margin: 7vw 7vw 3vw 7vw;
+    text-align: center;
+}
+
+.img-travel{
+    margin: 4vw 7vw 3vw 7vw;
+}
+
+.travel img{
+    width: 30%;
+    height: 30%;
+}
+
+
+.bg-footer{
+    background-color: black;
+}
+
+.source {
+    color: white;
+    margin: 0 5vw 0 5vw;
+}
+
+.source p{
+    padding-top: 2vw;
+}
+
+.source a{
+    text-decoration: none;
+    color: white;
+    line-height: 4vh;
+}
+
+.source a:hover{
+    color: grey;
+}
+
+.copyright p{
+    color: white;
+    margin-bottom: 0;
+    text-align: right;
+    margin-right: 5vw;
+    padding-bottom: 1vw;
+    text-align: center;
+}
+
+.contact {
+    text-align: right;
+    margin-bottom: 2vh;
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+}
